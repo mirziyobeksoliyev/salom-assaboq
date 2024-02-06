@@ -1,0 +1,265 @@
+/* about styles */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.big-parent{
+    width: 100%;
+    height: auto;
+}
+.harf1 h1{
+    color: rgb(184, 133, 40);
+    /* padding: 0 50px; */
+    display: flex;
+    justify-content: center;
+}
+.df{
+    display: flex;
+    padding: 0 5px;
+}
+.little-divs{
+    margin-left: 20px;
+    text-align: center;
+}
+span{
+    color: rgb(255, 77, 0);
+}
+.little-divs img:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+img{
+    border-radius: 30px;
+    flex-wrap: wrap;
+}
+.df2{
+    display: flex;
+    margin-left: -20px;
+}
+.muslims{
+    width: 270px;
+    height: 400px;
+    background-color:  rgb(255, 255, 255);
+    border-radius: 20px;
+    margin-left: 100px;  
+    box-shadow: 0px 0px 10px 1px grey;
+    gap: 5px;
+}
+.muslims img{
+    margin-left: 5px;
+    margin-top: 10px;
+}
+button{
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+.muslims h1{
+    margin-left: 25px;
+    margin-top: 20px;
+}
+.harf2 h1{
+    margin-top: 200px;
+    text-align: center;
+    color: rgb(184, 133, 40);
+    
+}
+.for-color{
+    color: rgb(243, 151, 52);
+}
+.harf3 h1{
+    font-size: 42px;
+    margin-top: 20px;
+    color: rgb(184, 133, 40);
+}
+.background-mosque{
+    background: url("https://images2.alphacoders.com/107/1074920.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 80vh;
+    opacity: 75%;
+    object-fit: cover;
+}
+.inputlar{
+    margin-left: -270px;
+    margin-top: 50px;
+}
+input{
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+    margin-left: 200px;
+    color: rgb(111, 110, 110);
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    box-shadow: 0px 0px 10px 2px rgb(49, 49, 49);
+    padding-left: 10px;
+}
+.inputlar button{
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+    margin-left: 200px;
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    background-color: rgb(196, 137, 27);
+    color: white;
+    box-shadow: 0px 0px 5px 2px rgb(49, 49, 49);
+}
+.harf4 h1{
+    color: white;
+    font-size: 40px;
+}
+.yozuvlar h1{
+    color: white;
+    margin-top: 50px;
+    font-size: 25px;
+    margin-left: 180px;
+}
+.df3{
+    display: flex;
+
+}
+.yozuvlar2 h1{
+    margin-top: 40px;
+    margin-left: 100px;
+    color: aliceblue;
+}
+/* nav  styles*/
+
+
+/* #salom{
+    background: url(Rectangle\ 51.png) no-repeat center/cover;
+    width: 100%;
+    height: 40vh;
+    padding: -200px;
+}
+
+b {
+    font-weight: bolder;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: "roboto", sans-serif;
+    color: white;
+}
+
+.navbar {
+    width: 100%;
+    height: 90px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+.b{
+    padding: 20px 50px;
+}
+.b b{
+    text-decoration: none;
+
+}
+.a{
+    padding: 20px 40px;
+}
+.a a {
+    font-family: "roboto", sans-serif;
+    color: white;
+    text-decoration: none;
+    padding: 30px 20px;
+}
+.a a:hover{
+    color: #FF9E67;
+    transition: 0.5s;
+}
+.a i{
+    display: none;
+}
+
+.a button {
+    width: 160px;
+    height: 40px;
+    color: white;
+    background-color: #FF9E67;
+    font-size: 18px;
+    border: 0;
+    border-radius: 8px;
+}
+
+h1 span{
+    color: #C98A3B;
+}
+h1{
+    font-size: 40px;
+    font-family: "Roboto", sans-serif;
+    padding-top: 510px;
+    padding-left: 230px ;
+}
+.df{
+    display: flex;
+}
+.ung img{
+    margin-top: 440px;
+    margin-left: 130px;
+}
+#div{
+    display: none;
+}
+@media only screen and (max-width: 600px) {
+    .df {
+    display: block;
+    }
+    .ung img{
+        width:270px;
+        margin-left: 100px;
+        margin-top: 90px;
+    }
+    #salom{
+        width: 100%;
+        height: 30vh;
+    }
+    h1{
+        font-size: 25px;
+        padding-top: 140px;
+        padding-left:110px;
+    }
+    .navbar .a{
+        display: none;
+    }
+#div{
+    display: block;
+      color: white;
+      margin-top: -90px;
+}
+.navbar  i{
+    font-size: 25px;
+    margin-top: 40px;
+}
+.navbar{
+    display: flex;
+}
+#div button{
+    background: none;
+    border: none;
+}
+.c a{
+color: black;
+display: block;
+text-decoration: none;
+font-size: 20px;
+margin-top: 20px;
+}
+.c button{
+    font-size: 20px;
+    margin-top: 20px    ;
+}
+  }
+  #div .btn-close{
+    color: black;
+} */

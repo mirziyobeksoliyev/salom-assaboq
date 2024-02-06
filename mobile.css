@@ -1,0 +1,54 @@
+@media screen and (max-width: 860px) {
+ 
+    .df{
+        display: flex;
+        flex-direction: column;
+        margin-left: -50px
+    }
+
+    .little-divs img{
+        width: 350px;
+        height: 350px;
+    }
+    .df2{
+        display: flex;
+        flex-direction: column;
+        margin-left: -10px;
+        
+    }
+    .muslims{
+        margin-top: 70px;
+    }
+    input{
+        margin-top: 10px;
+    }
+    .inputlar button{
+        margin-top: 20px;
+    }
+    .inputlar{
+         margin-left: -150px;
+    }
+    .yozuvlar{
+        margin-left: -150px;
+        font-size: 15px;
+    }
+    .little-divs h2{
+        text-align: center;
+    }
+    .background-mosque{
+    background: url("https://images2.alphacoders.com/107/1074920.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 120vh;
+    opacity: 75%;
+    }
+    .big-parent{
+        width: 100%;
+        height: 350vh;
+    }
+    .yozuvlar2{
+        margin-left: -50px;
+        font-size: 15px;
+    }
+   
+  }
